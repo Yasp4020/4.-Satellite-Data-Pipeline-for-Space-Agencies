@@ -244,3 +244,16 @@ License
 This project is licensed under the Apache License 2.0 with additional restrictions for space-sensitive applications. See LICENSE.md for full terms and export control requirements.
 
 Export Control Notice: This software may be subject to export controls under the International Traffic in Arms Regulations (ITAR) and Export Administration Regulations (EAR).
+text
+## Documentation Structure
+
+- **[System Architecture](./diagrams/system-architecture.md)** - Complete system design and data flow diagrams
+- **[Component Design](./docs/architecture/component-design.md)** - Detailed technical specifications for each component  
+- **[API Documentation](./docs/api/api-specification.md)** - REST API endpoints and specifications
+- **[Database Design](./docs/architecture/database-design.md)** - Petabyte-scale database schemas
+- **[Source Code](./src/README.md)** - Implementation structure and technology stack
+- **[Deployment Guide](./docs/deployment/)** - Enterprise deployment architecture
+
+## Quick Start
+git clone https://github.com/yourusername/satellite-data-pipeline.git
+cd satellite-data-pipeline
